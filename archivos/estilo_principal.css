@@ -555,7 +555,6 @@
             left: -10%;
             width: 30%;
             height: 120%;
-            background: var(--gradient-secondary);
             opacity: 0.03;
             border-radius: 50%;
             z-index: -1;
@@ -2435,7 +2434,6 @@
     /* Credits section */
     .ofrecemos_creditos {
         padding: 1rem 1rem;
-        margin-top:-2.5rem;
     }
     
     .ache_ofrecemoscreditos {

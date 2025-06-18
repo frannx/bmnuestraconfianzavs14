@@ -37,22 +37,6 @@
             position: relative;
         }
 
-        /* Fondo animado con partículas */
-        body::before {
-            content: '';
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: 
-                radial-gradient(circle at 20% 20%, rgba(35, 72, 255, 0.1) 0%, transparent 50%),
-                radial-gradient(circle at 80% 80%, rgba(74, 144, 226, 0.1) 0%, transparent 50%),
-                radial-gradient(circle at 40% 60%, rgba(255, 107, 53, 0.05) 0%, transparent 50%);
-            z-index: -2;
-            animation: backgroundShift 20s ease-in-out infinite alternate;
-        }
-
         @keyframes backgroundShift {
             0% { transform: translateX(0) translateY(0); }
             100% { transform: translateX(-20px) translateY(-20px); }
@@ -2740,6 +2724,7 @@
         font-size: 2rem;
         margin-bottom: 1rem;
         line-height: 1.3;
+        margin-top:3rem;
     }
 
     .titulo p {
@@ -2826,6 +2811,7 @@
     .ache_ofrecemoscreditos {
         font-size: 2rem;
         margin-bottom: 1.5rem;
+        margin-top:1.5rem;
     }
     
     .creditos_container {
